@@ -1,0 +1,27 @@
+{
+  "name": "basicapp",
+  "version": "1.0.0",
+  "description": "a basic app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajayhithub/backend.git"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "ajay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajayhithub/backend/issues"
+  },
+  "homepage": "https://github.com/ajayhithub/backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
