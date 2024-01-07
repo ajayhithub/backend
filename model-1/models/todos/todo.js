@@ -11,8 +11,8 @@ const todoSchema = new mongoose.Schema(
       default: false,
     },
     createdBy: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
+      type: mongoose.Schema.Types.ObjectId,   // import other model (schema)
+      ref: 'User',        // it is reference of other model (schema)
     },
     subTodos: [
       {
